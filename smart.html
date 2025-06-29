@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Interactions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">My Profile</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="fun.html">Fun</a></li>
+        <li class="nav-item"><a class="nav-link active" href="smart.html">Smart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <h2>Smart Page - Live Interaction</h2>
+
+  <label for="nameInput" class="form-label">Enter Your Name:</label>
+  <input type="text" id="nameInput" class="form-control" placeholder="Type your name...">
+  <p class="mt-2" id="greeting"></p>
+
+  <hr>
+
+  <div id="hoverBox" class="p-4 border mb-3">
+    Hover over me to change my background color!
+  </div>
+
+  <button class="btn btn-warning" id="animateBtn">Click Me to Animate</button>
+  <div id="animateBox" class="p-4 border mt-2">Watch me animate on click!</div>
+
+  <hr>
+
+  <button class="btn btn-secondary" onclick="toggleTheme()">Toggle Theme</button>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
