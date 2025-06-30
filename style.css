@@ -10,3 +10,10 @@ body {
 .dark-theme .navbar {
   background-color: #333;
 }
+
+.btn{
+  color: white;
+}
+.btn:hover{
+  color: dimgray; !important;
+}

@@ -32,10 +32,10 @@ $(document).ready(function () {
 
   $("#hoverBox").hover(
     function () {
-      $(this).css("background-color", "#f0ad4e");
+      $(this).css("background-color", "#f0bd4e");
     },
     function () {
-      $(this).css("background-color", "");
+      $(this).css("background-color", '');
     }
   );
 
